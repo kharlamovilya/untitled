@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 import {Link} from "react-router-dom";
-import logo from './assets/logo.png'; // adjust path as needed
+import logo from '../assets/logo.png'; // adjust path as needed
 
 const Header = () => {
     return (<div className="container">
