@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import runImage from './assets/run.jpg';
+import runImage from '../assets/run.jpg';
 const HomeCover = () => {
     return (
         <section
