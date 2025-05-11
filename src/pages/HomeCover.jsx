@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
+import runImage from './assets/run.jpg';
 const HomeCover = () => {
     return (
         <section
             className="rounded shadow container w-100 d-flex align-items-center text-light"
             style={{
-                backgroundImage: 'url(/src/assets/run.jpg)',
+                backgroundImage: `url(${runImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',

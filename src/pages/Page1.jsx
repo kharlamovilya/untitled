@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import calm_water from '../assets/calm-water.jpg'; // adjust path as needed
 
 export default function Page1() {
     return (
@@ -42,7 +43,7 @@ export default function Page1() {
                                 them up. I began recognizing these small victories as signs of progress.
                             </p>
                             <img
-                                src='src/assets/calm-water.jpg' // <-- rename to match your file
+                                src={calm_water} // <-- rename to match your file
                                 alt="Feet in calm water"
                                 className="img-fluid rounded shadow-sm my-3"
                             />

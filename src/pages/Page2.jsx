@@ -1,5 +1,6 @@
 // Full Page2.jsx: Reflections — styled and heartfelt for THRU MY EYES
 import React from 'react';
+import reflecting from '../assets/reflecting.jpg'; // adjust path as needed
 
 export default function Page2() {
     return (
@@ -73,7 +74,7 @@ export default function Page2() {
 
                             <div className="my-5 text-center">
                                 <img
-                                    src='src/assets/reflecting.jpg'
+                                    src={reflecting}
                                     alt="Feet in calm water"
                                     className="img-fluid rounded shadow"
                                     style={{maxHeight: '450px', objectFit: 'cover'}}
