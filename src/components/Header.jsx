@@ -1,0 +1,32 @@
+import React from 'react'
+import './Header.css';
+import {Link} from "react-router-dom";
+
+const Header = () => {
+    return (<div className="container">
+
+        <nav className="navbar navbar-expand-lg">
+
+            <a className="logo-button" href="/">
+                <img src="/src/assets/logo.png" alt="Logo" className="logo-img"/>
+            </a>
+
+
+            <div className="navbar-brand">
+                <ul className="navbar-nav ">
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link">HOME</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/moments" className="nav-link">MOMENTS</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/reflections" className="nav-link">REFLECTIONS</Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>);
+};
+
+export default Header;
