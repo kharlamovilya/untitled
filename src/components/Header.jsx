@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css';
 import {Link} from "react-router-dom";
+import logo from './assets/logo.png'; // adjust path as needed
 
 const Header = () => {
     return (<div className="container">
@@ -8,7 +9,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg">
 
             <a className="logo-button" href="/">
-                <img src="/src/assets/logo.png" alt="Logo" className="logo-img"/>
+                <img src={logo} alt="Logo" className="logo-img"/>
             </a>
 
 
