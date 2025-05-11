@@ -7,10 +7,9 @@ const Header = () => {
     return (<div className="container">
 
         <nav className="navbar navbar-expand-lg">
-
-            <a className="logo-button" href="/">
-                <img src={logo} alt="Logo" className="logo-img"/>
-            </a>
+            <Link to="/" className="logo-button">
+                <img src={logo} alt="Logo" className="logo-img" />
+            </Link>
 
 
             <div className="navbar-brand">
