@@ -10,7 +10,7 @@ export default function App() {
     return (<>
             <ScrollToTop/>
             <Routes>
-                <Route path="/untitled/" element={<Layout/>}>
+                <Route path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
                     <Route path="/moments" element={<Page1/>}/>
                     <Route path="/reflections" element={<Page2/>}/>
